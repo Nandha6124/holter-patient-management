@@ -6,6 +6,11 @@ A web app for clinic staff to register patients, log Holter (24-48 hour ECG) mon
 
 **Stack:** HTML, CSS, vanilla JavaScript (ES modules, no build step), Python, FastAPI, SQLAlchemy, SQLite, JWT + bcrypt
 
+## Screenshots
+![Dashboard](docs/screenshot-dashboard.png)
+
+![Patient page with Holter recordings](docs/screenshot-patient.png)
+
 ## Features
 - **Secure staff login**: bcrypt-hashed passwords, JWT sessions; every `/api` data route requires a valid token
 - **Patient registration**: auto-generated MRN (`HP-00001`), demographics, indication, notes
